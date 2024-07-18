@@ -1,0 +1,149 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --x:rgb(79,7,7)
+    
+}
+#logo{
+    width: 100%;
+    height: 100px;
+}
+ul li{
+    font-size: 20px;
+    
+}
+li i{
+    color: rgb(211, 211, 211);
+}
+#buttn{
+    background-color:var(--x);
+    color:white;
+}
+
+#buttn:hover{
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+@media(max-width:992px){
+  .nav-item i{
+        display: none;
+    }
+}
+#main{
+    background-image:url('./images/whatsapp-image-2023-02-19-at-11-46-23-pm.webp');
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#b1{
+    width:100%;
+   
+    background-color: rgba(0, 0, 0, 0.379);
+}
+#work{
+    text-align: center;
+}
+#welcome{
+    padding-top: 22%;
+    padding-left:5%;
+}
+#welcome h4{
+
+    color: white;
+    font-size: 30px;
+}
+
+#welcome h1{
+    color:white;
+    font-size: 100px;
+}
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 30px;
+    }
+}
+#work{
+    margin-top:10%;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/225/052/non_2x/abstract-white-blurred-beautiful-shine-background-with-bokeh-and-sunlight-vector.jpg');
+    padding-top: 8%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div .viewbtn{
+    border-color: var(--x);
+    color: var(--x);
+}
+
+div .viewbtn:hover{
+    background-color: var(--x);
+    color: white;
+}
+#about{
+    background-color: rgb(230, 223, 223);
+    padding: 10% 0px;
+    
+}
+#hr{
+    height: 0.4rem;
+    width: 10rem;
+    background-color: var(--x);
+}
+#about h4{
+    color: var(--x);
+
+}
+#about p{
+    text-align: justify;
+}
+
+#abImg{
+    border: 7px solid var(--x);
+    width: 100%;
+    height: 490px;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.projGDiv1{
+    height: 100%;
+    width: 100%;
+}
+.projGDiv1 img{
+     width: 100%;
+     height: 100%;
+}
+.projGDiv2{
+    width: 55%;
+    height: 20%;
+    background-color:rgba(0,0,0,0.893);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+
+}
+.projGDiv3{
+    width: 55%;
+    height: 20%;
+    background-color:rgba(0,0,0,0.893);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    
+
+}
